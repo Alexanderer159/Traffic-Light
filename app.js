@@ -6,7 +6,7 @@ const setTrafficLight = () =>{
 
     const yellowTime = 3000;
     const redTime = 6000;
-    const totalTime = yellowTime + redTime 
+    const totalTime = yellowTime + redTime
 
       setTimeout(() => {
         document.getElementById("colorHigh").innerHTML = `⚪`;
